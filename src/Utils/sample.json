@@ -1,0 +1,44 @@
+[
+  {
+    "name": "1234",
+    "routeId": "1234",
+    "status": "Active",
+    "direction": "up",
+    "source": {
+      "value": "Chennai, Tamil Nadu, India",
+      "label": "Chennai, Tamil Nadu, India",
+      "details": { "lon": 80.270186, "lat": 13.083694 }
+    },
+    "destination": {
+      "value": "Bengaluru, Karnataka, India",
+      "label": "Bengaluru, Karnataka, India",
+      "details": { "lon": 77.5913, "lat": 12.97912 }
+    },
+    "stops": [
+      {
+        "value": "Madurai, Tamil Nadu, India",
+        "label": "Madurai, Tamil Nadu, India",
+        "details": { "lon": 78.114098, "lat": 9.926115 }
+      }
+    ],
+    "key": "uQUgFkiVkh41i6tuBarp-"
+  },
+  {
+    "name": "new",
+    "routeId": "2",
+    "status": "Inactive",
+    "direction": "down",
+    "source": {
+      "value": "Tirol, 50022, Natal, Rio Grande do Norte, Brazil",
+      "label": "Tirol, 50022, Natal, Rio Grande do Norte, Brazil",
+      "details": { "lon": -35.2002, "lat": -5.8032 }
+    },
+    "destination": {
+      "value": "London, Greater London, England, United Kingdom",
+      "label": "London, Greater London, England, United Kingdom",
+      "details": { "lon": -0.12764739999999997, "lat": 51.507321899999994 }
+    },
+    "stops": [],
+    "key": "Wk-q42FeQi4t-ORywU4FD"
+  }
+]
