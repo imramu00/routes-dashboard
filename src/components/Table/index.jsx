@@ -265,11 +265,20 @@ const MyTable = () => {
                 <div className='accordian'>
                   <div className='accordian-container'>
                     <Timeline>
-                      <Timeline.Item>{record.source.value}</Timeline.Item>
+                      <Timeline.Item>
+                        {record.source.value}
+                        {` (${record.source.details.lon},${record.source.details.lat})`}
+                      </Timeline.Item>
                       {(record.stops || []).map(stop => (
-                        <Timeline.Item>{stop.value}</Timeline.Item>
+                        <Timeline.Item>
+                          {stop.value}
+                          {` (${stop.details.lon},${stop.details.lat})`}
+                        </Timeline.Item>
                       ))}
-                      <Timeline.Item>{record.destination.value}</Timeline.Item>
+                      <Timeline.Item>
+                        {record.destination.value}
+                        {` (${record.destination.details.lon},${record.destination.details.lat})`}
+                      </Timeline.Item>
                     </Timeline>
                   </div>
                   <div
